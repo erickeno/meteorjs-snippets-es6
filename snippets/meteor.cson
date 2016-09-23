@@ -1,0 +1,60 @@
+# JS FILE SNIPPETS
+".js":
+  # SNIPPETS FOR COLLECTIONS
+  'Collection Allow':
+    "prefix":"cola"
+    "body":"""
+      ${1:Collection}.allow({
+        insert() { return false; },
+        update() { return false; },
+        remove() { return false; },
+      });
+    """,
+  "Collection Deny":
+    "prefix":"colde"
+    "body": """
+      ${1:Collection}.deny({
+        insert() { return true; },
+        update() { return true; },
+        remove() { return true; },
+      });
+    """,
+  "New Meteor Collection":
+    "prefix":"mcol"
+    "body":"""
+      export const ${1:Collection} = new Mongo.Collection("${2:collection}")
+    """,
+  "Meteor Publish":
+    "prefix": "mpub"
+    "body": """
+      Meteor.publish("${1:name}", function(${2:argument}){
+        ${3}
+      });
+    """,
+  "Meteor Subscribe":
+    "prefix": "msub"
+    "body": """
+      Meteor.subscribe("${1:name}", ${2:argument});
+    """,
+  "Meteor Methods":
+    "prefix": "mmeth"
+    "body": """
+      Meteor.methods({
+        "${1:name}" (${2:argument}) {
+          ${3}
+        },
+      });
+    """,
+  "Meteor Validated Method":
+    "prefix": "mvmeth"
+    "body": """
+      export const ${1:name} = new ValidatedMethod({
+        name: "${2:name}",
+        validate: new SimpleSchema({
+          ${3:data}
+          }).validator(),
+        run(${4:argument}) {
+          ${5}
+        }
+      });
+    """
