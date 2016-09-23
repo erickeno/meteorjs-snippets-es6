@@ -1,0 +1,18 @@
+{
+  "name": "meteorjs-snippets-es6",
+  "main": "./lib/meteorjs-snippets-es6",
+  "version": "0.0.1",
+  "description": "Atom meteor snippets with tab completion using es6 syntax",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "meteorjs-snippets-es6:toggle"
+  },
+  "repository": "https://github.com/erickeno/meteorjs-snippets-es6",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
