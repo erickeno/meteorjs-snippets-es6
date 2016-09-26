@@ -11,8 +11,8 @@
 
   "Import Validated Method":
     "prefix": "mival"
-    "body": """import { ValidatedMethod } 'meteor/mdg:validated-method';""",
-    
+    "body": """import { ValidatedMethod } from 'meteor/mdg:validated-method';""",
+
   "Import Check":
     "prefix": "mich"
     "body": """import { check } from 'meteor/check';""",
@@ -81,7 +81,7 @@
   "Meteor Validated Method":
     "prefix": "mvmeth"
     "body": """
-      export const ${1:name} = new ValidatedMethod({
+      export const ${1:variable} = new ValidatedMethod({
         name: "${2:name}",
         validate: new SimpleSchema({
           ${3:data}
