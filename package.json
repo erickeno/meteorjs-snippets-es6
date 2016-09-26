@@ -1,7 +1,7 @@
 {
   "name": "meteorjs-snippets-es6",
   "main": "./lib/meteorjs-snippets-es6",
-  "version": "2.0.0",
+  "version": "1.0.1",
   "description": "Atom meteor snippets with tab completion using es6 syntax",
   "keywords": [],
   "activationCommands": {
