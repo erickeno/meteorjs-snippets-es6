@@ -4,7 +4,7 @@ Atom meteor snippets with tab completion using the latest es6 syntax
 
 ## SNIPPETS
 
-### IMPORTS
+### Imports
 **mimp**
 ```javascript
 import { Meteor } from 'meteor/meteor';
@@ -25,7 +25,7 @@ import { ValidatedMethod } 'meteor/mdg:validated-method';
 import { check } from 'meteor/check';
 ```
 
-### COLLECTION SNIPPETS
+### Collection Snippets
 **cola**
 ```javascript
 Collection.allow({
@@ -59,7 +59,7 @@ Collection.find({ _id:... });
 Collection.findOne(...);
 ```
 
-### METEOR PUBLISH
+### Meteor Publish
 **mpub**
 ```javascript
 Meteor.publish("name", function(argument){
@@ -67,13 +67,13 @@ Meteor.publish("name", function(argument){
 });
 ```
 
-### METEOR SUBSCRIBE
+### Meteor Subscribe
 **msub**
 ```javascript
 Meteor.subscribe("name", arguments);
 ```
 
-### METEOR METHODS
+### Meteor Methods
 **mmeth**
 ```javascript
 Meteor.methods({
@@ -84,7 +84,6 @@ Meteor.methods({
 ```
 
 **mvmeth**
-Validated Method
 ```javascript
 export const name = new ValidatedMethod({
   name: "...",
@@ -97,7 +96,7 @@ export const name = new ValidatedMethod({
 });
 ```
 
-### METEOR CALL
+### Meteor Call
 **mcall**
 ```javascript
 Meteor.call(name, args (err, res) => {
@@ -109,7 +108,7 @@ Meteor.call(name, args (err, res) => {
 });
 ```
 
-### METEOR APPLY
+### Meteor Apply
 **mapp**
 ```javascript
 meteor.apply(name, args, (err, res) => {
@@ -121,7 +120,7 @@ meteor.apply(name, args, (err, res) => {
 });
 ```
 
-# JS BLAZE TEMPLATE SNIPPETS
+### Blaze js Template snippets
 **mhel**
 ```javascript
 Template.name.helpers({
@@ -161,7 +160,7 @@ Template.name.onDestroyed(function() {
 });
 ```
 
-### BLAZE TEMPLATE SNIPPETS
+### Blaze template snippets
 **mtp**
 ```html
 <template name="name">
