@@ -3,7 +3,12 @@
   "main": "./lib/meteorjs-snippets-es6",
   "version": "1.1.0",
   "description": "Atom meteor snippets with tab completion using es6 syntax",
-  "keywords": [],
+  "keywords": [
+    "Meteor",
+    "Meteor.js",
+    "es6",
+    "Blaze"
+  ],
   "activationCommands": {
     "atom-workspace": "meteorjs-snippets-es6:toggle"
   },
