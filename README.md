@@ -1,10 +1,12 @@
 # Meteor.js es6 Snippets
+[![apm](https://img.shields.io/apm/l/vim-mode.svg?maxAge=2592000)]()
 
 Atom meteor snippets with tab completion using the latest es6 syntax
 
 ![Preview](http://g.recordit.co/u1UrLaSaA1.gif)
-[![apm](https://img.shields.io/apm/l/vim-mode.svg?maxAge=2592000)]()
-[![apm](https://img.shields.io/apm/v/vim-mode.svg?maxAge=2592000)](https://atom.io/packages/meteorjs-snippets-es6)
+
+
+
 
 ## SNIPPETS
 
