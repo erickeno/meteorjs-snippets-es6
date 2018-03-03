@@ -1,4 +1,6 @@
 # Meteor.js es6 Snippets
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/erickeno/meteorjs-snippets-es6.svg)](https://greenkeeper.io/)
 [![apm](https://img.shields.io/apm/l/vim-mode.svg?maxAge=2592000)]()
 
 Atom meteor snippets with tab completion using the latest es6 syntax
