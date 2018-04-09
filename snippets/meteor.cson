@@ -160,7 +160,7 @@
   "Blaze Template":
     "prefix": "mtp"
     "body": """
-      <template name="{1:name}">
+      <template name="${1:name}">
         ${2}
       </template>
     """,
